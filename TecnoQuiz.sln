@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TecnoQuiz.API", "TecnoQuiz.API\TecnoQuiz.API.csproj", "{1C53D262-1B8E-42E1-89BA-4109809E05EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TecnoQuiz.Application", "TecnoQuiz.Application\TecnoQuiz.Application.csproj", "{A3E6AB20-0EE0-4E93-ABE6-29BAE0077684}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TecnoQuiz.Domain", "TecnoQuiz.Domain\TecnoQuiz.Domain.csproj", "{33C093A3-D9BB-4591-A338-967AB55458D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TecnoQuiz.Infrastructure", "TecnoQuiz.Infrastructure\TecnoQuiz.Infrastructure.csproj", "{A14CC450-092A-4682-A879-2B812CF92526}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TecnoQuiz.Tests", "TecnoQuiz.Tests\TecnoQuiz.Tests.csproj", "{F7DECF46-05EA-4F95-AEC5-9EC225BAFE1F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C53D262-1B8E-42E1-89BA-4109809E05EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C53D262-1B8E-42E1-89BA-4109809E05EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C53D262-1B8E-42E1-89BA-4109809E05EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C53D262-1B8E-42E1-89BA-4109809E05EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3E6AB20-0EE0-4E93-ABE6-29BAE0077684}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3E6AB20-0EE0-4E93-ABE6-29BAE0077684}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3E6AB20-0EE0-4E93-ABE6-29BAE0077684}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3E6AB20-0EE0-4E93-ABE6-29BAE0077684}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33C093A3-D9BB-4591-A338-967AB55458D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33C093A3-D9BB-4591-A338-967AB55458D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33C093A3-D9BB-4591-A338-967AB55458D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33C093A3-D9BB-4591-A338-967AB55458D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A14CC450-092A-4682-A879-2B812CF92526}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A14CC450-092A-4682-A879-2B812CF92526}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A14CC450-092A-4682-A879-2B812CF92526}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A14CC450-092A-4682-A879-2B812CF92526}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7DECF46-05EA-4F95-AEC5-9EC225BAFE1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7DECF46-05EA-4F95-AEC5-9EC225BAFE1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7DECF46-05EA-4F95-AEC5-9EC225BAFE1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7DECF46-05EA-4F95-AEC5-9EC225BAFE1F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
