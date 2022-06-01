@@ -4,7 +4,7 @@ namespace TecnoQuiz.Domain.Entities
     {
         public UserAnswer()
         {
-            
+
         }
         public UserAnswer(Guid userId, Guid quizId, Guid questionId, Guid answerId)
         {
@@ -18,5 +18,7 @@ namespace TecnoQuiz.Domain.Entities
         public Guid QuizId { get; private set; }
         public Guid QuestionId { get; private set; }
         public Guid AnswerId { get; private set; }
+
+        public List<Answer> Answers { get; private set; }
     }
 }

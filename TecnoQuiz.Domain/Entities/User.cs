@@ -1,25 +1,29 @@
-using System;
-
 namespace TecnoQuiz.Domain.Entities
 {
-    public class User: BaseEntity
+    public class User : BaseEntity
     {
         public User()
         {
-            
+
         }
-        public User(string username, string role, DateTime birthday, string document)
+
+        public User(string fullName, string email, string password, string role, DateTime birthday, string document)
         {
-            Username = username;
+            FullName = fullName;
+            Email = email;
+            Password = password;
             Role = role;
             Birthday = birthday;
             Document = document;
+            Active = true;
         }
 
-        public string Username { get; private set; }
+        public string FullName { get; private set; }
+        public string Email { get; private set; }
         public string Password { get; private set; }
         public string Role { get; private set; }
         public DateTime Birthday { get; private set; }
         public string Document { get; private set; }
+        public bool Active { get; set; }
     }
 }
