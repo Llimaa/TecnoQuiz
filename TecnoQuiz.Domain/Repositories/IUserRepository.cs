@@ -8,7 +8,5 @@ namespace TecnoQuiz.Domain.Repositories
         Task<User> GetByEmailAsync(string email);
         Task<Guid> AddAsync(User user);
         Task UpdateAsync(User user);
-        Task ActiveUserAsync(Guid id);
-        Task InactiveUserAsync(Guid id);
     }
 }

@@ -6,7 +6,7 @@ namespace TecnoQuiz.Domain.Repositories
     {
         Task<IEnumerable<Answer>> GetByQuestionIdAsync(Guid id);
         Task<Answer> GetByIdAsync(Guid id);
-
+        Task<bool> ItHasFiveAnswersToQuestion(Guid questionId);
         Task AddAsync(Answer ansuer);
         Task UpdateAsync(Answer answer);
         Task RemoveAsync(Guid id);
