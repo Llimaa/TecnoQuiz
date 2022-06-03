@@ -20,5 +20,20 @@ namespace TecnoQuiz.Domain.Entities
 
         public Guid UserId { get; private set; }
         public List<Question> Questions { get; private set; }
+
+        public void Update(string title, string description)
+        {
+            Title = title;
+            Description = description;
+        }
+
+        public void ActiveQuiz()
+        {
+            Status = EQuizStatus.Active;
+        }
+        public void InactiveQuiz()
+        {
+            Status = EQuizStatus.Inative;
+        }
     }
 }

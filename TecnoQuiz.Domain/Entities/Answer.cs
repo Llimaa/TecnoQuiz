@@ -16,5 +16,11 @@ namespace TecnoQuiz.Domain.Entities
         public Guid QuestionId { get; private set; }
         public string Description { get; private set; }
         public bool IsRight { get; private set; }
+
+        public void Update(string description, bool isRight)
+        {
+            Description = description;
+            IsRight = isRight;
+        }
     }
 }

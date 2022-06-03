@@ -7,7 +7,7 @@ namespace TecnoQuiz.Domain.Entities
         {
 
         }
-        
+
         public Question(Guid quizId, string description)
         {
             QuizId = quizId;
@@ -16,6 +16,11 @@ namespace TecnoQuiz.Domain.Entities
 
         public Guid QuizId { get; private set; }
         public string Description { get; private set; }
+
+        public void Update(string description)
+        {
+            Description = description;
+        }
 
         public List<Answer> Answers { get; private set; }
     }

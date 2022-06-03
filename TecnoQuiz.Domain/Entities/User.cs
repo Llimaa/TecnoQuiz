@@ -25,5 +25,22 @@ namespace TecnoQuiz.Domain.Entities
         public DateTime Birthday { get; private set; }
         public string Document { get; private set; }
         public bool Active { get; set; }
+
+        public void Update(string fullname, string email, DateTime birthday, string document)
+        {
+            FullName = fullname;
+            Email = email;
+            Birthday = birthday;
+            Document = document;
+        }
+
+        public void ActiveUser()
+        {
+            Active = true;
+        }
+        public void DesactiveUser()
+        {
+            Active = false;
+        }
     }
 }

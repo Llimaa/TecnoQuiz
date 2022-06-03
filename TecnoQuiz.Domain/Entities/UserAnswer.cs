@@ -6,17 +6,13 @@ namespace TecnoQuiz.Domain.Entities
         {
 
         }
-        public UserAnswer(Guid userId, Guid quizId, Guid questionId, Guid answerId)
+        public UserAnswer(Guid userId, Guid answerId)
         {
             UserId = userId;
-            QuizId = quizId;
-            QuestionId = questionId;
             AnswerId = answerId;
         }
 
         public Guid UserId { get; private set; }
-        public Guid QuizId { get; private set; }
-        public Guid QuestionId { get; private set; }
         public Guid AnswerId { get; private set; }
 
         public List<Answer> Answers { get; private set; }
