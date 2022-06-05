@@ -13,12 +13,13 @@ namespace TecnoQuiz.Domain.Entities
             UserId = userId;
             Status = EQuizStatus.Active;
         }
-
+            
         public string Title { get; private set; }
         public string Description { get; private set; }
         public EQuizStatus Status { get; private set; }
 
         public Guid UserId { get; private set; }
+        public User User { get; set; }
         public List<Question> Questions { get; private set; }
 
         public void Update(string title, string description)

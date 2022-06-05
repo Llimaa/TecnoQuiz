@@ -24,7 +24,7 @@ namespace TecnoQuiz.Domain.Entities
         public string Role { get; private set; }
         public DateTime Birthday { get; private set; }
         public string Document { get; private set; }
-        public bool Active { get; set; }
+        public bool Active { get; private set; }
 
         public void Update(string fullname, string email, DateTime birthday, string document)
         {
