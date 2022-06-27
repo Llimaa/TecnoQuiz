@@ -23,5 +23,6 @@ namespace TecnoQuiz.Domain.Entities
         }
 
         public List<Answer> Answers { get; private set; }
+        public Quiz Quiz { get; set; }
     }
 }
