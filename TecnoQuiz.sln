@@ -1,25 +1,22 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30114.105
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TecnoQuiz.API", "TecnoQuiz.API\TecnoQuiz.API.csproj", "{1C53D262-1B8E-42E1-89BA-4109809E05EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TecnoQuiz.API", "TecnoQuiz.API\TecnoQuiz.API.csproj", "{1C53D262-1B8E-42E1-89BA-4109809E05EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TecnoQuiz.Application", "TecnoQuiz.Application\TecnoQuiz.Application.csproj", "{A3E6AB20-0EE0-4E93-ABE6-29BAE0077684}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TecnoQuiz.Application", "TecnoQuiz.Application\TecnoQuiz.Application.csproj", "{A3E6AB20-0EE0-4E93-ABE6-29BAE0077684}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TecnoQuiz.Domain", "TecnoQuiz.Domain\TecnoQuiz.Domain.csproj", "{33C093A3-D9BB-4591-A338-967AB55458D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TecnoQuiz.Domain", "TecnoQuiz.Domain\TecnoQuiz.Domain.csproj", "{33C093A3-D9BB-4591-A338-967AB55458D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TecnoQuiz.Infrastructure", "TecnoQuiz.Infrastructure\TecnoQuiz.Infrastructure.csproj", "{A14CC450-092A-4682-A879-2B812CF92526}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TecnoQuiz.Infrastructure", "TecnoQuiz.Infrastructure\TecnoQuiz.Infrastructure.csproj", "{A14CC450-092A-4682-A879-2B812CF92526}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TecnoQuiz.Tests", "TecnoQuiz.Tests\TecnoQuiz.Tests.csproj", "{F7DECF46-05EA-4F95-AEC5-9EC225BAFE1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TecnoQuiz.Tests", "TecnoQuiz.Tests\TecnoQuiz.Tests.csproj", "{F7DECF46-05EA-4F95-AEC5-9EC225BAFE1F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{1C53D262-1B8E-42E1-89BA-4109809E05EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -42,5 +39,11 @@ Global
 		{F7DECF46-05EA-4F95-AEC5-9EC225BAFE1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7DECF46-05EA-4F95-AEC5-9EC225BAFE1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7DECF46-05EA-4F95-AEC5-9EC225BAFE1F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3DEA5D29-62C8-47E6-AB5E-C09BE7BAAC95}
 	EndGlobalSection
 EndGlobal
