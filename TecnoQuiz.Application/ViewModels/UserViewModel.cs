@@ -2,6 +2,10 @@
 {
     public class UserViewModel
     {
+        public UserViewModel()
+        {
+
+        }
         public UserViewModel(Guid id, string fullName, string email, string role, DateTime birthday, string document, bool active)
         {
             Id = id;

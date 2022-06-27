@@ -14,8 +14,9 @@ namespace TecnoQuiz.Application.ViewModels
             Description = description;
         }
 
-        public QuestionViewModel(string description, List<AnswerViewModel> answers)
+        public QuestionViewModel(Guid id, string description, List<AnswerViewModel> answers)
         {
+             Id = id;
             Description = description;
             Answers = answers;
         }
@@ -23,6 +24,6 @@ namespace TecnoQuiz.Application.ViewModels
 
         public Guid Id { get; set; }
         public string Description { get; private set; }
-        public List<AnswerViewModel> Answers { get; private set; }
+        public List<AnswerViewModel>? Answers { get; private set; }
     }
 }
