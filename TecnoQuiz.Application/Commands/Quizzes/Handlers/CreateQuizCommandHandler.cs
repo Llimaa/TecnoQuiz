@@ -5,7 +5,7 @@ using TecnoQuiz.Domain.Repositories;
 
 namespace TecnoQuiz.Application.Commands.Quizzes.Handlers
 {
-    public class CreateQuizCommandHandler : IRequestHandler<CreateQuizCommand, Unit>
+    public class CreateQuizCommandHandler : IRequestHandler<CreateQuizCommand, Guid>
     {
         private readonly IQuizRepository _quizRepository;
 
@@ -14,12 +14,12 @@ namespace TecnoQuiz.Application.Commands.Quizzes.Handlers
             _quizRepository = quizRepository;
         }
 
-        public async Task<Unit> Handle(CreateQuizCommand request, CancellationToken cancellationToken)
+        public async Task<Guid> Handle(CreateQuizCommand request, CancellationToken cancellationToken)
         {
             var quiz = new Quiz(request.Title, request.Description, request.UserId);
 
             await _quizRepository.AddAsync(quiz);
-            return Unit.Value;
+            return quiz.Id;
         }
     }
 }

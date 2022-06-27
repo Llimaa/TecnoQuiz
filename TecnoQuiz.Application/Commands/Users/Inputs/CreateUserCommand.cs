@@ -4,10 +4,6 @@ namespace TecnoQuiz.Application.Commands.Users.Inputs
 {
     public class CreateUserCommand : IRequest<Guid>
     {
-        public CreateUserCommand()
-        {
-
-        }
 
         public string FullName { get; set; }
         public string Email { get; set; }
