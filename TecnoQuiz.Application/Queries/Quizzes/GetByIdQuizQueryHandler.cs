@@ -20,11 +20,12 @@ namespace TecnoQuiz.Application.Queries.Quizzes
 
             var quizViewModel =
             new QuizViewModel(
+                quiz.Id,
                 quiz.Title,
                 quiz.Description,
                 quiz.Status,
                 new UserViewModel(quiz.User.Id, quiz.User.FullName, quiz.User.Email, quiz.User.Role, quiz.User.Birthday, quiz.User.Document, quiz.User.Active),
-                quiz.Questions.Select(question => new QuestionViewModel(question.Description)).ToList());
+                quiz.Questions.Select(question => new QuestionViewModel(question.Id, question.Description)).ToList());
 
             return quizViewModel;
         }

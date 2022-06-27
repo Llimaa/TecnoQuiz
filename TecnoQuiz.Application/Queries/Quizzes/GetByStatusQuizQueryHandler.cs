@@ -20,6 +20,7 @@ namespace TecnoQuiz.Application.Queries.Quizzes
 
             var quizzesViewModel = quizzes.Select(quiz =>
             new QuizViewModel(
+                quiz.Id,
                 quiz.Title,
                 quiz.Description,
                 quiz.Status,

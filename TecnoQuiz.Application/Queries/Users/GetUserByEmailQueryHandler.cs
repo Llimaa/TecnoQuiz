@@ -20,7 +20,8 @@ namespace TecnoQuiz.Application.Queries.Users
             if (user == null) return null;
 
             var userViewlModel = new UserViewModel(user.Id, user.FullName, user.Email, user.Role, user.Birthday, user.Document, user.Active);
-            return userViewlModel;
+
+            return new UserViewModel();
         }
     }
 }
